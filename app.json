@@ -1,0 +1,18 @@
+{
+	"reponame":"sample-9-patch-splash-screen",
+	"title":"9-Patch Splash Screen App",
+	"abbr":"9-Patch App",
+	"tooltip":"[App Designer Ready] This sample application demonstrates how to use 9-patch PNG images for Android* splash screens within Intel XDK. . It uses the Apache Cordova* Splash Screen and In App Browser plugins.",
+	"description":"[App Designer Ready] This sample application demonstrates how to use 9-patch PNG images for Android* splash screens within Intel XDK. . It uses the Apache Cordova* Splash Screen and In App Browser plugins.",
+	"articleurl":"https://software.intel.com/en-us/xdk/articles/android-splash-screens-using-nine-patch-png",
+    	"screenshotUrl":"",
+    	"iconUrl":"",
+	"highlights":["App Designer", "Splash Screen", "Apache Cordova API", "9-patch"],
+    	"keywords":["App Designer", "Splash Screen", "Apache Cordova API", "9-patch"],
+	"visible": "true",
+	"apppreview":"true",
+	"type":"appdesigner",
+	"appname":"demo.ninepatch",
+	"relname":"4.0.0",
+  	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
+}
