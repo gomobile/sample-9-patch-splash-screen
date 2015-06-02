@@ -197,6 +197,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Firefox": {
@@ -216,6 +217,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Chrome": {
@@ -235,6 +237,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       },
       "Facebook": {
@@ -254,6 +257,7 @@
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
         "appVersion_": "0.0.1"
       }
     },
