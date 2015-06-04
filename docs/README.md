@@ -23,7 +23,7 @@ Due to varied screen sizes and resolutions of Android* devices in the market, An
 *   High Density (hdpi ~ 240dpi)
 *   Extra-High Density (xhdpi ~ 320dpi) 
 
-*Note: <span style="line-height: 16.7999992370605px; text-align: justify;">These dpi values are approximations, since custom built devices will have varying dpi values.</span>*
+*> *Note: <span style="line-height: 16.7999992370605px; text-align: justify;">These dpi values are approximations, since custom built devices will have varying dpi values.</span>**
 
 You will have to create 4 png images of your desired splash screen for each of the following screen density:
 
@@ -93,7 +93,7 @@ You will have to create 4 png images of your desired splash screen for each of t
 
 <span style="line-height: 19.6000003814697px; text-align: justify;">Differing screen sizes, widescreen, orientation are all factors that contribute to the image stretching to fit the screen. So your only options are to either create an image for each screen size/density combination, or create four 9-patch images. </span><span style="line-height: 19.6000003814697px; text-align: justify;">Once these four images have been converted to 9-patch, Android* will select the appropriate file for the device’s image density and then stretch the image according to the the device standard. </span><span style="line-height: 19.6000003814697px; text-align: justify;">If you choose to design a splash screen for every single resolution, you can start by following the resolutions in the table at the end of </span>[this](http://developer.android.com/guide/practices/screens_support.html#testing)<span style="line-height: 19.6000003814697px; text-align: justify;"> page.</span>
 
-*Note: If you choose to create just one 9-patch image of size 720x960, you have to note that 9-patch images only **stretch** and not **shrink**. While it may look great on a tablet, displaying it on a standard mobile device of size 320x470, text and other elements will look very small and lose legibility. To ensure that no shrinking will occur, you have to design in the lowest common resolution for each density category.*
+> Note: If you choose to create just one 9-patch image of size 720x960, you have to note that 9-patch images only **stretch** and not **shrink**. While it may look great on a tablet, displaying it on a standard mobile device of size 320x470, text and other elements will look very small and lose legibility. To ensure that no shrinking will occur, you have to design in the lowest common resolution for each density category.
 
 In the sample, you will find two sets of images (NinePatchSplashScreen/www/images) – four original images ending with .png and their 9-patch counterparts ending with .9.png.
 
@@ -101,7 +101,7 @@ In the sample, you will find two sets of images (NinePatchSplashScreen/www/image
 
 We are going to be using the Draw 9-patch tool from Android* to do this.
 
-*Note: Any PNG image editor that can mark pixels in a transparent color can be used.*
+> Note: Any PNG image editor that can mark pixels in a transparent color can be used.
 
 **Step 1:** Launch Tool. Draw9patch.bat is part of [Android* SDK](https://developer.android.com/sdk/index.html) and can be launched from the sdk/tools folder. 
 
@@ -191,7 +191,8 @@ You can modify the duration by changing the timeout in milliseconds in index_use
 
 Run the app on a variety of devices to see how different screen sizes and aspect ratios change the splash screen to see the difference nine-patch images make.
 
-*Note: You can run this app in the Emulator or using the Debug and Test tabs, but you will not see the custom splash screens. You must build and install the app on an Android* device to see the custom splash screen.*
+
+> Note: You can run this app in the Emulator or using the Debug and Test tabs, but you will not see the custom splash screens. You must build and install the app on an Android* device to see the custom splash screen.
 
 * * *
 

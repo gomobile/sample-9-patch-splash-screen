@@ -1,13 +1,24 @@
 9-Patch Splash Screen App
 ============================
-The 9-Patch Splash Screen app demonstrates how to use 9-patch PNG images for Android* splash screens within Intel XDK. 
 
-Intel(R) XDK 
--------------------------------------------
-This sample is part of the Intel(R) XDK. 
-Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample and for a 9-patch splash screen creation tutorial, 
+See [LICENSE.md](LICENSE.md) for license terms and conditions.
+
+
+
+## Project Details ##
+
+The 9-Patch Splash Screen app demonstrates how to use 9-patch PNG images for Android* splash screens within Intel® XDK. 
+
+This sample is part of the Intel® XDK. 
+Download the Intel® XDK at [http://software.intel.com/en-us/html5](http://software.intel.com/en-us/html5). To see the technical details of the sample and for a 9-patch splash screen creation tutorial, 
 please visit the **[included tutorial][]**. 
 [included tutorial]: docs/README.md
+
+## Project File Information ##
+
+The `icon.png` and `screenshot.png` files are not required by your project. They are included for use by the Intel® XDK template/demo panel and have no use within a real app. You can safely delete them from your project directory.
+
+The `cordova.js` script is needed to provide your app with access to Cordova APIs. To add Cordova APIs to your application you must add the corresponding Cordova plugins. See the Plugins section on the Projects tab.
 
 Important App Files
 ---------------------------
@@ -20,33 +31,6 @@ Important App Files
 * css/*
 * images/*
 
-License Information Follows
----------------------------
-Copyright © 2012-2015, Intel Corporation. All rights reserved.
 
-Redistribution and use in source and binary forms, with or without modification, 
-are permitted provided that the following conditions are met:
-
-- Redistributions of source code must retain the above copyright notice, 
-  this list of conditions and the following disclaimer.
-
-- Redistributions in binary form must reproduce the above copyright notice, 
-  this list of conditions and the following disclaimer in the documentation 
-  and/or other materials provided with the distribution.
-
-- Neither the name of Intel Corporation nor the names of its contributors 
-  may be used to endorse or promote products derived from this software 
-  without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
-THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
-GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT 
-OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
