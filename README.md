@@ -6,8 +6,8 @@ Intel(R) XDK
 -------------------------------------------
 This sample is part of the Intel(R) XDK. 
 Download the Intel(R) XDK at http://software.intel.com/en-us/html5. To see the technical details of the sample and for a 9-patch splash screen creation tutorial, 
-please visit the sample article page at https://software.intel.com/en-us/xdk/articles/android-splash-screens-using-nine-patch-png.
-
+please visit the **[included tutorial][]**. 
+[included tutorial]: docs/README.md
 
 Important App Files
 ---------------------------
@@ -22,7 +22,7 @@ Important App Files
 
 License Information Follows
 ---------------------------
-Copyright (c) 2014, Intel Corporation. All rights reserved.
+Copyright © 2012-2015, Intel Corporation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, 
 are permitted provided that the following conditions are met:
