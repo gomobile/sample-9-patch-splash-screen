@@ -10,8 +10,7 @@
 	"highlights":["Splash Screen", "Apache Cordova API", "9-patch"],
     	"keywords":["Splash Screen", "Apache Cordova API", "9-patch"],
 	"visible": "true",
-	"apppreview":"false",
-	"type":"appdesigner",
+	"apppreview":"true",
 	"appname":"demo.ninepatch",
 	"relname":"4.0.0",
   	"projectTypeName": "com.intel.xdk.projecttype.jsapp"
