@@ -1,13 +1,12 @@
 {
     "project": {
-        "projectSettingsVersion": "1.2",
+        "projectSettingsVersion": "2.0.0",
         "creationData": {
-            "type": "App Designer",
             "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-            "src": "appDesigner",
+            "src": "jsapp/sample-9-patch-splash-screen/sample.zip",
             "projectGuid": "00000000-0000-0000-0000-000000000000",
-            "lastModifiedDate": 1428535966534,
-            "creationDate": 1428102703776
+            "lastModifiedDate": 1440220403991,
+            "creationDate": 1440220254455
         },
         "XDK-app-designer": "true",
         "sourceDirectory": "www",
@@ -19,31 +18,54 @@
         "cordovaPluginsDirectory": "plugins",
         "cordovaPlugins": [
             {
-                "id": "org.apache.cordova.device",
+                "id": "cordova-plugin-device",
                 "version": "?",
                 "selectedState": "Included",
                 "data": {},
                 "paramvals": {},
                 "dependsOn": [],
-                "dependedBy": []
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-device",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Device",
+                "description": "Cordova Device Plugin"
             },
             {
-                "id": "org.apache.cordova.splashscreen",
+                "id": "cordova-plugin-splashscreen",
                 "version": "?",
                 "selectedState": "Included",
                 "data": {},
                 "paramvals": {},
                 "dependsOn": [],
-                "dependedBy": []
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-splashscreen",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "Splashscreen",
+                "cordovaVersion": ">=3.1.0",
+                "description": "Cordova Splashscreen Plugin"
             },
             {
-                "id": "org.apache.cordova.inappbrowser",
+                "id": "cordova-plugin-inappbrowser",
                 "version": "?",
                 "selectedState": "Included",
                 "data": {},
                 "paramvals": {},
                 "dependsOn": [],
-                "dependedBy": []
+                "dependedBy": [],
+                "originType": "cordova.io",
+                "origin": "cordova-plugin-inappbrowser",
+                "permissions": {},
+                "topLevel": true,
+                "gitref": "",
+                "name": "InAppBrowser",
+                "cordovaVersion": ">=3.1.0",
+                "description": "Cordova InAppBrowser Plugin"
             }
         ],
         "buildConfigurations": {
@@ -57,13 +79,17 @@
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "xdk.intel.blank.ad.template",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [
                     {
@@ -97,7 +123,6 @@
                 ],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
-                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
                 "appVersion_": "0.0.1",
@@ -115,18 +140,21 @@
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "xdk.intel.blank.ad.template.crosswalk",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
-                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
                 "appVersion_": "0.0.1",
@@ -143,13 +171,17 @@
                     "ios-configuration": "adhoc"
                 },
                 "isActive_": true,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "xdk.intel.blank.ad.template",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -170,18 +202,21 @@
                     "windows-publisher-id": ""
                 },
                 "isActive_": true,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "xdk.intel.blank.ad.template",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
-                "iosProvs_": [],
                 "cordovaCLIVersion_": "?",
                 "crosswalkVersion_": "?",
                 "appVersion_": "0.0.0.1",
@@ -194,13 +229,17 @@
                 "name_": "WebApp",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -214,13 +253,17 @@
                 "name_": "Firefox",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -234,13 +277,17 @@
                 "name_": "Chrome",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
@@ -254,23 +301,53 @@
                 "name_": "Facebook",
                 "preferences_": {},
                 "isActive_": false,
-                "appName_": "NinePatchSplashScreen",
+                "appName_": "9-patch",
                 "appID_": "not.yet.specified",
-                "appAccess_": [
-                    {
-                        "origin": "*"
-                    }
-                ],
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
                 "icons_": [],
                 "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
                 "appAuthor_": "Intel XDK",
                 "appVersion_": "0.0.1"
+            },
+            "WP81": {
+                "platform_": "wp81",
+                "runtime_": "Cordova 3.x",
+                "name_": "WP81",
+                "preferences_": {},
+                "isActive_": true,
+                "appName_": "9-patch",
+                "appID_": "not.yet.specified",
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "appVersion_": "0.0.0.1",
+                "cordovaCLIVersion_": "?",
+                "appAuthor_": "Intel XDK"
             }
         },
         "gameAssetDirectory": "asset",
         "gameMetadata": {},
-        "projectTags": []
+        "projectTags": [],
+        "testDirectory": "test"
     }
 }
