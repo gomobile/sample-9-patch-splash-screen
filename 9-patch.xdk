@@ -18,6 +18,23 @@
         "cordovaPluginsDirectory": "plugins",
         "cordovaPlugins": [
             {
+                "id": "org.apache.cordova.statusbar",
+                "name": "StatusBar",
+                "version": "?",
+                "originType": "cordova.io",
+                "origin": "org.apache.cordova.statusbar",
+                "gitref": "",
+                "paramvals": {},
+                "selectedState": "Included",
+                "dependsOn": [],
+                "topLevel": true,
+                "cordovaVersion": "?",
+                "permissions": {},
+                "description": "Cordova StatusBar Plugin",
+                "data": {},
+                "dependedBy": []
+             },
+            {
                 "id": "cordova-plugin-device",
                 "version": "?",
                 "selectedState": "Included",
@@ -47,7 +64,7 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "Splashscreen",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova Splashscreen Plugin"
             },
             {
@@ -64,11 +81,43 @@
                 "topLevel": true,
                 "gitref": "",
                 "name": "InAppBrowser",
-                "cordovaVersion": ">=3.1.0",
+                "cordovaVersion": "?",
                 "description": "Cordova InAppBrowser Plugin"
             }
         ],
         "buildConfigurations": {
+            "Android-Crosswalk": {
+                "platform_": "android",
+                "runtime_": "Crosswalk with Cordova 3.x",
+                "name_": "Android-Crosswalk",
+                "preferences_": {
+                    "android-minSdkVersion": "14",
+                    "android-targetSdkVersion": "19",
+                    "android-installLocation": "auto"
+                },
+                "isActive_": true,
+                "appName_": "9-patch",
+                "appID_": "xdk.intel.blank.ad.template.crosswalk",
+                "appAccess_": {
+                    "mode": "legacy",
+                    "network": [
+                        "http://debug-software.intel.com/*",
+                        "https://github.com/gomobile/*"
+                    ],
+                    "intents": [],
+                    "navigation": []
+                },
+                "icons_": [],
+                "splashes_": [],
+                "addlPermissions_": "",
+                "excludedLibraries_": "",
+                "cordovaCLIVersion_": "?",
+                "crosswalkVersion_": "?",
+                "appVersion_": "0.0.1",
+                "appAuthor_": "Intel XDK",
+                "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
+                "appVersionCode_": "1"
+            },
             "Android": {
                 "platform_": "android",
                 "runtime_": "Cordova 3.x",
@@ -121,38 +170,6 @@
                         "orientation": "portrait"
                     }
                 ],
-                "addlPermissions_": "",
-                "excludedLibraries_": "",
-                "cordovaCLIVersion_": "?",
-                "crosswalkVersion_": "?",
-                "appVersion_": "0.0.1",
-                "appAuthor_": "Intel XDK",
-                "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
-                "appVersionCode_": "1"
-            },
-            "Android-Crosswalk": {
-                "platform_": "android",
-                "runtime_": "Crosswalk with Cordova 3.x",
-                "name_": "Android-Crosswalk",
-                "preferences_": {
-                    "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
-                    "android-installLocation": "auto"
-                },
-                "isActive_": true,
-                "appName_": "9-patch",
-                "appID_": "xdk.intel.blank.ad.template.crosswalk",
-                "appAccess_": {
-                    "mode": "legacy",
-                    "network": [
-                        "http://debug-software.intel.com/*",
-                        "https://github.com/gomobile/*"
-                    ],
-                    "intents": [],
-                    "navigation": []
-                },
-                "icons_": [],
-                "splashes_": [],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
                 "cordovaCLIVersion_": "?",
