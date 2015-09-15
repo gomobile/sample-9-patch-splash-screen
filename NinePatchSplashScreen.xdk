@@ -101,7 +101,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -133,7 +134,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -193,7 +195,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -224,7 +227,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -251,7 +255,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -275,7 +280,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -299,7 +305,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -323,7 +330,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
@@ -347,7 +355,8 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*",
+                        "http://debug-software.intel.com/*", 
+                        "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
                     "intents": [],
