@@ -33,7 +33,7 @@
                 "description": "Cordova StatusBar Plugin",
                 "data": {},
                 "dependedBy": []
-             },
+            },
             {
                 "id": "cordova-plugin-device",
                 "version": "?",
@@ -86,46 +86,13 @@
             }
         ],
         "buildConfigurations": {
-            "Android-Crosswalk": {
+            "Android": {
                 "platform_": "android",
                 "runtime_": "Crosswalk with Cordova 3.x",
                 "name_": "Android-Crosswalk",
                 "preferences_": {
                     "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
-                    "android-installLocation": "auto"
-                },
-                "isActive_": true,
-                "appName_": "9-patch",
-                "appID_": "xdk.intel.blank.ad.template.crosswalk",
-                "appAccess_": {
-                    "mode": "legacy",
-                    "network": [
-                        "http://debug-software.intel.com/*", 
-                        "https://debug-software.intel.com/*",
-                        "https://github.com/gomobile/*"
-                    ],
-                    "intents": [],
-                    "navigation": []
-                },
-                "icons_": [],
-                "splashes_": [],
-                "addlPermissions_": "",
-                "excludedLibraries_": "",
-                "cordovaCLIVersion_": "?",
-                "crosswalkVersion_": "?",
-                "appVersion_": "0.0.1",
-                "appAuthor_": "Intel XDK",
-                "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
-                "appVersionCode_": "1"
-            },
-            "Android": {
-                "platform_": "android",
-                "runtime_": "Cordova 3.x",
-                "name_": "Android",
-                "preferences_": {
-                    "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "19",
+                    "android-targetSdkVersion": "23",
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
@@ -134,7 +101,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -144,28 +111,28 @@
                 "icons_": [],
                 "splashes_": [
                     {
-                        "relPath": "images/320x426.9.png",
+                        "relPath": "../package-assets/android/320x426.9.png",
                         "density": "ldpi",
                         "height": 426,
                         "width": 320,
                         "orientation": "portrait"
                     },
                     {
-                        "relPath": "images/320x470.9.png",
+                        "relPath": "../package-assets/android/320x470.9.png",
                         "density": "mdpi",
                         "height": 470,
                         "width": 320,
                         "orientation": "portrait"
                     },
                     {
-                        "relPath": "images/480x640.9.png",
+                        "relPath": "../package-assets/android/480x640.9.png",
                         "density": "hdpi",
                         "height": 640,
                         "width": 480,
                         "orientation": "portrait"
                     },
                     {
-                        "relPath": "images/720x960.9.png",
+                        "relPath": "../package-assets/android/720x960.9.png",
                         "density": "xhdpi",
                         "height": 960,
                         "width": 720,
@@ -186,7 +153,7 @@
                 "runtime_": "Cordova 3.x",
                 "name_": "iOS",
                 "preferences_": {
-                    "ios-target": "6",
+                    "ios-target": "8.0",
                     "ios-configuration": "adhoc"
                 },
                 "isActive_": true,
@@ -195,7 +162,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -227,7 +194,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -255,7 +222,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -280,7 +247,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -305,7 +272,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -330,7 +297,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
@@ -355,7 +322,7 @@
                 "appAccess_": {
                     "mode": "legacy",
                     "network": [
-                        "http://debug-software.intel.com/*", 
+                        "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
                         "https://github.com/gomobile/*"
                     ],
