@@ -99,7 +99,7 @@
                 "appName_": "9-patch",
                 "appID_": "xdk.intel.blank.ad.template",
                 "appAccess_": {
-                    "mode": "legacy",
+                    "mode": "whitelist",
                     "network": [
                         "http://debug-software.intel.com/*",
                         "https://debug-software.intel.com/*",
