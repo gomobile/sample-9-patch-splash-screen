@@ -92,7 +92,7 @@
                 "name_": "Android",
                 "preferences_": {
                     "android-minSdkVersion": "14",
-                    "android-targetSdkVersion": "23",
+                    "android-targetSdkVersion": "21",
                     "android-installLocation": "auto"
                 },
                 "isActive_": true,
@@ -110,34 +110,34 @@
                 },
                 "icons_": [],
                 "splashes_": [
-                  {
-                    "relPath": "assets/android/320x426.9.png",
-                    "density": "ldpi",
-                    "height": 426,
-                    "width": 320,
-                    "orientation": "portrait"
-                  },
-                  {
-                    "relPath": "assets/android/320x470.9.png",
-                    "density": "mdpi",
-                    "height": 470,
-                    "width": 320,
-                    "orientation": "portrait"
-                  },
-                  {
-                    "relPath": "assets/android/480x640.9.png",
-                    "density": "hdpi",
-                    "height": 640,
-                    "width": 480,
-                    "orientation": "portrait"
-                  },
-                  {
-                    "relPath": "assets/android/720x960.9.png",
-                    "density": "xhdpi",
-                    "height": 960,
-                    "width": 720,
-                    "orientation": "portrait"
-                  }
+                    {
+                        "relPath": "assets/android/320x426.9.png",
+                        "density": "ldpi",
+                        "height": 426,
+                        "width": 320,
+                        "orientation": "portrait"
+                    },
+                    {
+                        "relPath": "assets/android/320x470.9.png",
+                        "density": "mdpi",
+                        "height": 470,
+                        "width": 320,
+                        "orientation": "portrait"
+                    },
+                    {
+                        "relPath": "assets/android/480x640.9.png",
+                        "density": "hdpi",
+                        "height": 640,
+                        "width": 480,
+                        "orientation": "portrait"
+                    },
+                    {
+                        "relPath": "assets/android/720x960.9.png",
+                        "density": "xhdpi",
+                        "height": 960,
+                        "width": 720,
+                        "orientation": "portrait"
+                    }
                 ],
                 "addlPermissions_": "",
                 "excludedLibraries_": "",
